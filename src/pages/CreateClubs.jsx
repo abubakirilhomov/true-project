@@ -1,24 +1,24 @@
 import React from "react";
-// import image from "../assets/imageclub.png"
-
+import image from "../assets/imageclub.png"
+//afdfdfd
 export default function CreateClubs() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <div className="bg-cyan-500 text-white text-center py-4 text-xl font-bold">
+      <div className="bg-cyan-500 text-center py-4 text-xl font-bold">
         ОТКРЫТЬ КЛУБ ВМЕСТЕ С TRUE
       </div>
 
       <div className="flex justify-center bg-white py-4">
         <img
-          src="{image}"
+          src={image}
           alt="Club Layout"
           className="w-full max-w-4xl rounded shadow"
         />
       </div>
 
-      <div className="bg-gray-200 py-8 px-4 md:px-20">
+      <div className="bg-gray-200 text-black py-8 px-4 md:px-20 ">
         <h2 className="text-center text-2xl font-semibold mb-6">ОТПРАВИТЬ ЗАЯВКУ</h2>
-        <form className="max-w-3xl mx-auto space-y-6">
+        <form className="space-y-6 max-w-[70%] mx-auto">
           <div>
             <label className="block text-sm font-medium mb-1">ВАШЕ ИМЯ</label>
             <input type="text" className="w-full px-3 py-2 border border-gray-300 rounded" placeholder="Имя" />
@@ -86,7 +86,7 @@ export default function CreateClubs() {
           </div>
 
           <div className="flex justify-center">
-            <button type="submit" className="bg-cyan-500 text-white px-6 py-2 rounded hover:bg-cyan-600">
+            <button type="submit" className="bg-cyan-500  px-6 py-2 rounded hover:bg-cyan-600">
               ОТПРАВИТЬ
             </button>
           </div>

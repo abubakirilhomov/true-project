@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../assets/imageclub.png"
-//asdsada
+//jefhhdgvhdbvghfvgf
 export default function CreateClubs() {
   return (
     <div className="min-h-screen bg-gray-100">

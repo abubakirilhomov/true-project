@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/imageclub.png"
+// import image from "../assets/imageclub.png"
 
 export default function CreateClubs() {
   return (
@@ -10,7 +10,7 @@ export default function CreateClubs() {
 
       <div className="flex justify-center bg-white py-4">
         <img
-          src={image}
+          src="{image}"
           alt="Club Layout"
           className="w-full max-w-4xl rounded shadow"
         />
